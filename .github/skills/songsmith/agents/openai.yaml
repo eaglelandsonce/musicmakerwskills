@@ -1,0 +1,14 @@
+interface:
+  display_name: SongSmith
+  short_description: Turn any text into original, singable song lyrics
+  default_prompt: Use $songsmith to turn my text into original lyrics with randomized
+    musical parameters.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
